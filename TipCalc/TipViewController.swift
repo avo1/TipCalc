@@ -36,7 +36,7 @@ class TipViewController: UIViewController, UITextFieldDelegate {
     
     var isUsingDarkTheme = false
     let darkColor = UIColor(red: 0, green: 128/255, blue: 0, alpha: 1)
-    let lightColor = UIColor(red: 102/255, green: 1, blue: 102/255, alpha: 1)
+    let lightColor = UIColor(red: 128/255, green: 1, blue: 128/255, alpha: 1)
     
     var defaults = NSUserDefaults.standardUserDefaults()
     var tipPercentage = 0.15
@@ -134,7 +134,7 @@ class TipViewController: UIViewController, UITextFieldDelegate {
         let people = Int(numPeopleLabel.text!)
         tipsLabel.text = formatter.stringFromNumber(tipValue)
         totalLabel.text = formatter.stringFromNumber(totalBill)
-        amountPerLabel.text = formatter.stringFromNumber(tipValue / Double(people!))
+        amountPerLabel.text = formatter.stringFromNumber(totalBill / Double(people!))
     }
     
     func loadTheme(isDark: Bool) {
@@ -151,6 +151,7 @@ class TipViewController: UIViewController, UITextFieldDelegate {
         self.view.backgroundColor = bgColor
         self.billLabel.backgroundColor = bgColor
         self.billLabel.textColor = textColor
+        self.billLabel.tintColor = textColor
         self.tipSegment.tintColor = textColor
         
         self.plusLabel.textColor = textColor
