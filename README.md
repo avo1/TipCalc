@@ -25,6 +25,6 @@ In additional:
 
 ### Walkthrough
 
-![Video Walkthrough](TipCalc.gif)
+![Video Walkthrough](TipCalc_iP5.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
