@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "justOK-green.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Neutral Filled-100-2.png",
       "scale" : "2x"
     },
     {

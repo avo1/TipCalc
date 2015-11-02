@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "excellent-light.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "LOL Filled-100.png",
       "scale" : "2x"
     },
     {

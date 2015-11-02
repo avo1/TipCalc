@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "good-light.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Happy Filled-100.png",
       "scale" : "2x"
     },
     {

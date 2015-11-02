@@ -33,10 +33,11 @@ class TipViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var downButton: UIButton!
     @IBOutlet weak var nPeopleLabel: UILabel!
     @IBOutlet weak var amountLabel: UILabel!
-    
+    // #B4EEB4
     var isUsingDarkTheme = false
     let darkColor = UIColor(red: 0, green: 128/255, blue: 0, alpha: 1)
-    let lightColor = UIColor(red: 128/255, green: 1, blue: 128/255, alpha: 1)
+    let lightColor = UIColor(red:180.0/255.0, green:238.0/255.0, blue:180.0/255.0, alpha:1.0)
+//    UIColor(red: 128/255, green: 1, blue: 128/255, alpha: 1)
     
     var defaults = NSUserDefaults.standardUserDefaults()
     var tipPercentage = 0.15
