@@ -9,7 +9,7 @@ Completed:
 
 - [x] Required: Settings page to change the default tip percentage.
 
-- [] Optional: UI animations
+- [ ] Optional: UI animations
 
 - [x] Optional: Remembering the bill amount across app restarts (if <10mins)
 
